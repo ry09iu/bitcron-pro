@@ -6,13 +6,15 @@ body {
     overflow-x: none;
     margin: 0 auto;
     width: 100%;
-    background-color: #faf9f7 !important;
+    // background-color: #faf9f7 !important;
+    background: #fff !important;
     color: #3e3e3e;
     word-spacing: 0;
     letter-spacing: 0;
     font-size: 16px;
     font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
-    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    // font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", STHeiti, "WenQuanYi Micro Hei", Helvetica, Arial, sans-serif;
     text-rendering: optimizeLegibility;
     line-height: 2.1;
     scroll-behavior: smooth;
@@ -182,11 +184,12 @@ code {
     width: 100%
 }
 .main-inner {
-    margin: 3.3em auto 0;
+    // margin: 3.3em auto 0;
+    margin: 0 auto;
     padding: 3.3em 0 2.7em;
-    max-width: 50pc;
+    max-width: 60pc;
     background: #fff !important;
-    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
+    // box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
     border-radius: 10px
 }
 .main-inner .content {
@@ -312,9 +315,12 @@ code {
 .tags-container .tag {
     display: inline-block;
     margin: 0 8px 8px 0;
-    padding: 4px 15px;
-    border-radius: 5px;
-    background: #d1dbe0
+    padding: 5px 13px;
+    border-radius: 3px;
+    // background: #d1dbe0;
+    color: #666;
+    border: 1px solid #ddd;
+    font-size: 13px;
 }
 .list_with_title {
     margin: 0;
@@ -790,27 +796,29 @@ pre .cl {
 }
 .search-input {
     position: relative;
-    top: -3px;
+    top: 0px;
     left: -2px;
-    width: 160px;
-    height: 26px;
-    padding: 0 0 2px 27px;
-    font-size: 16px;
-    background: url(https://i.loli.net/2020/01/12/X3cnLxGjo7Wb8Jk.png) 6px 3px no-repeat;
-    background-color: white !important;
+    width: 100px;
+    // height: 26px;
+    // padding: 0 0 2px 27px;
+    padding: 8px 10px 8px 32px;
+    font-size: 14px;
+    background: url(https://i.loli.net/2020/01/12/X3cnLxGjo7Wb8Jk.png) 8px 8px no-repeat;
+    background-color: #f9f9f9 !important;
     background-size: 20px;
     border: 0;
-    border-radius: 15px;
+    border-radius: 16.5px;
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: medium;
     outline: 0;
     color: #424242;
     border-bottom: 2px #beb1b1;
-    transition: border-color .2s
+    transition: .3s;
 }
 .search-input:hover {
-    width: 180px
+    width: 200px;
+    transition: .3s;
 }
 #eof {
     text-align: center;
